@@ -12,14 +12,14 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className='flex items-center h-20 justify-between px-10'>
-        <div className="logo font-bold text-2xl px-10">
+      <div className='flex items-center h-18 justify-between px-10'>
+        <div className="logo font-bold text-2xl md:px-10">
           Errol D'mello
         </div>
 
         {/* Desktop Menu */}
         <div className='hidden md:flex gap-6 items-center'>
-          <a href='/'>Home</a>
+          <a href='#home'>Home</a>
           <a href='/about'>About</a>
           <a href='/projects'>Projects</a>
           <a href='/contact'>Contact</a>
@@ -38,7 +38,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       { isOpen && (
         <div className='md:hidden flex flex-col items-center gap-4 py-6 bg-white shadow'>
-          <a href='/' onClick={()=>setIsOpen(false)}>Home</a>
+          <a href='#home' onClick={()=>setIsOpen(false)}>Home</a>
           <a href='/about' onClick={()=>setIsOpen(false)}>About</a>
           <a href='/projects' onClick={()=>setIsOpen(false)}>Projects</a>
           <a href='/contact' onClick={()=>setIsOpen(false)}>Contact</a>
