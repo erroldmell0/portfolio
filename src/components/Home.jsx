@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className='flex flex-col md:flex-row md:py-24 py-16 bg-black font-sans' id='home'>
+    <div className='flex flex-col md:flex-row md:py-24 py-16 bg-black font-sans pt-25' id='home'>
       {/* left-section */}
       <div className='md:w-1/2 flex flex-col justify-center items-center text-white px-6'>
 
