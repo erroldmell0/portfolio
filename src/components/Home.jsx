@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const Home = () => {
   return (
-    <div className='flex flex-col md:flex-row md:py-24 py-16 bg-black font-sans pt-25' id='home'>
+    <div className='flex flex-col md:flex-row md:py-24 py-16 bg-neutral-900 font-sans pt-25' id='home'>
       {/* left-section */}
       <div className='md:w-1/2 flex flex-col justify-center items-center text-white px-6'>
 
@@ -14,8 +15,9 @@ const Home = () => {
           {/* contact button and links */}
           <div className="flex items-center gap-3 mt-2">
             <a href="#contact" className="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition duration-300 my-2 inline-block">Contact me</a>
-            <a href="https://www.linkedin.com/in/errol-dmell0/" target="_blank" rel="noopener noreferrer" className="bg-white text-black text-xl p-2 rounded-full hover:bg-gray-200 transition duration-300"><FaLinkedinIn /></a>
-            <a href="https://github.com/erroldmell0" target="_blank" rel="noopener noreferrer" className="bg-white text-black text-xl p-2 rounded-full hover:bg-gray-200 transition duration-300"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/errol-dmell0/" target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-black text-xl p-2 rounded-full hover:bg-blue-400 transition duration-300"><FaLinkedinIn /></a>
+            <a href="https://github.com/erroldmell0" target="_blank" rel="noopener noreferrer" className="bg-white text-black text-xl p-2 rounded-full hover:bg-gray-300 transition duration-300"><FaGithub /></a>
+            <a href="https://leetcode.com/u/erroldmell0/" target="_blank" rel="noopener noreferrer" className="bg-amber-400 text-black text-xl p-2 rounded-full hover:bg-amber-300 transition duration-300"><SiLeetcode /></a>
           </div>
         </div>
         

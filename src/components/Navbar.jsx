@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white text-gray-800 shadow-sm">
       <div className='flex items-center h-18 justify-between px-10'>
         <div className="logo font-bold text-2xl md:px-10">
           Errol D'mello
@@ -21,8 +21,9 @@ const Navbar = () => {
         <div className='hidden md:flex gap-6 items-center'>
           <a href='#home'>Home</a>
           <a href='#about'>About</a>
-          <a href='/projects'>Projects</a>
-          <a href='/contact'>Contact</a>
+          <a href='#skills'>Skills</a>
+          <a href='#projects'>Projects</a>
+          <a href='#contact'>Contact</a>
 
           <button onClick={downloadCV} className="cv-btn text-white bg-black px-4 py-2 rounded-2xl hover:bg-gray-800">
             Download CV
@@ -40,8 +41,9 @@ const Navbar = () => {
         <div className='md:hidden flex flex-col items-center gap-4 py-6 bg-white shadow'>
           <a href='#home' onClick={()=>setIsOpen(false)}>Home</a>
           <a href='#about' onClick={()=>setIsOpen(false)}>About</a>
-          <a href='/projects' onClick={()=>setIsOpen(false)}>Projects</a>
-          <a href='/contact' onClick={()=>setIsOpen(false)}>Contact</a>
+          <a href='#skills' onClick={()=>setIsOpen(false)}>Skills</a>
+          <a href='#projects' onClick={()=>setIsOpen(false)}>Projects</a>
+          <a href='#contact' onClick={()=>setIsOpen(false)}>Contact</a>
 
           <button onClick={downloadCV} className="cv-btn text-white bg-black px-4 py-2 rounded-2xl hover:bg-gray-800">
             Download CV
