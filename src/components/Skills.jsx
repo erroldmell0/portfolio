@@ -1,22 +1,23 @@
-import React from 'react'
+import FadeIn from './FadeIn'
 
 const Skills = () => {
 
   const skills = [
-    { name: 'Java', img: './../public/java.png' },
-    { name: 'Python', img: './../public/python.png' },
-    { name: 'Git', img: './../public/git.png' },
-    { name: 'GitHub', img: './../public/github.png' },
-    { name: 'C', img: './../public/c.png' },
-    { name: 'HTML', img: './../public/html-5.png' },
-    { name: 'CSS', img: './../public/css-3.png' },
-    { name: 'JavaScript', img: './../public/js.png' },
-    { name: 'React', img: './../public/react.svg' },
-    { name: 'Tailwind CSS', img: './../public/tailwind.png' },
+    { name: 'Java', img: './../public/skills/java.png' },
+    { name: 'Python', img: './../public/skills/python.png' },
+    { name: 'Git', img: './../public/skills/git.png' },
+    { name: 'GitHub', img: './../public/skills/github.png' },
+    { name: 'C', img: './../public/skills/c.png' },
+    { name: 'HTML', img: './../public/skills/html-5.png' },
+    { name: 'CSS', img: './../public/skills/css-3.png' },
+    { name: 'JavaScript', img: './../public/skills/js.png' },
+    { name: 'React', img: './../public/skills/react.svg' },
+    { name: 'Tailwind CSS', img: './../public/skills/tailwind.png' },
   ]
 
   return (
     <>
+      <FadeIn>
       <div className='py-16 md:py-20 px-6 md:px-16 font-sans' id='skills'>
 
           <div className='flex flex-col justify-center items-center mb-12'>
@@ -35,6 +36,7 @@ const Skills = () => {
 
       </div>
       <hr className="border-t-2 border-gray-400 w-full mx-auto" />
+      </FadeIn>
     </>
   )
 }
