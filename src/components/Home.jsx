@@ -26,7 +26,7 @@ const Home = () => {
       {/* right-section */}
       <div className="md:w-1/2 flex justify-center items-center mt-10 md:mt-0">
         <div className='w-60 sm:w-72 md:w-80 lg:w-110 h-auto flex'>
-          <img src='../../public/profile_pic.jpg' alt='Profile Picture' className='h-full w-auto rounded-2xl object-cover shadow-2xl'/>
+          <img src='/profile_pic.jpg' alt='Profile Picture' className='h-full w-auto rounded-2xl object-cover shadow-2xl'/>
         </div>
       </div>
 

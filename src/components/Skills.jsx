@@ -3,16 +3,16 @@ import FadeIn from './FadeIn'
 const Skills = () => {
 
   const skills = [
-    { name: 'Java', img: './../public/skills/java.png' },
-    { name: 'Python', img: './../public/skills/python.png' },
-    { name: 'Git', img: './../public/skills/git.png' },
-    { name: 'GitHub', img: './../public/skills/github.png' },
-    { name: 'C', img: './../public/skills/c.png' },
-    { name: 'HTML', img: './../public/skills/html-5.png' },
-    { name: 'CSS', img: './../public/skills/css-3.png' },
-    { name: 'JavaScript', img: './../public/skills/js.png' },
-    { name: 'React', img: './../public/skills/react.svg' },
-    { name: 'Tailwind CSS', img: './../public/skills/tailwind.png' },
+    { name: 'Java', img: '/skills/java.png' },
+    { name: 'Python', img: '/skills/python.png' },
+    { name: 'Git', img: '/skills/git.png' },
+    { name: 'GitHub', img: '/skills/github.png' },
+    { name: 'C', img: '/skills/c.png' },
+    { name: 'HTML', img: '/skills/html-5.png' },
+    { name: 'CSS', img: '/skills/css-3.png' },
+    { name: 'JavaScript', img: '/skills/js.png' },
+    { name: 'React', img: '/skills/react.svg' },
+    { name: 'Tailwind CSS', img: '/skills/tailwind.png' },
   ]
 
   return (
