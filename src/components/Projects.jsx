@@ -4,6 +4,20 @@ import { GoLinkExternal } from "react-icons/go";
 const Projects = () => {
   const projects = [
     {
+      id: 0,
+      title: "SkillGap",
+      image: "/projects/skillgap.jpg",
+      tech: "React, Node.js, Express.js, MongoDB, Google Geminii",
+      description: [
+        "Built an AI interview prep platform analyzing resumes and job descriptions.",
+        "Generated skill gap reports, interview questions, and study plans.",
+        "Developed full-stack app with React, Express, and MongoDB.",
+        "Integrated Google Gemini, Zod validation, and PDF parsing.",
+        "Provided match scores, ranked gaps, and day-wise prep plans."
+      ],
+      github: "https://github.com/erroldmell0/SkillGap"
+    },
+    {
       id: 1,
       title: "Lockr",
       image: "/projects/lockr.png",
