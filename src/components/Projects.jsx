@@ -15,7 +15,7 @@ const Projects = () => {
         "Integrated Google Gemini, Zod validation, and PDF parsing.",
         "Provided match scores, ranked gaps, and day-wise prep plans."
       ],
-      github: "https://github.com/erroldmell0/SkillGap"
+      github: "https://skill-gap-theta.vercel.app/"
     },
     {
       id: 1,

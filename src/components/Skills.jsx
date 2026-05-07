@@ -3,15 +3,20 @@ import FadeIn from './FadeIn'
 const Skills = () => {
 
   const skills = [
+    { name: 'Node.js', img: '/skills/nodejs.png' },
+    { name: 'Express.js', img: '/skills/express.png' },
+    { name: 'MongoDB', img: '/skills/mongodb.png' },
+    { name: 'React', img: '/skills/react.svg' },
+    { name: 'Zustand', img: '/skills/zustand.svg' },
     { name: 'Java', img: '/skills/java.png' },
     { name: 'Python', img: '/skills/python.png' },
+    { name: 'MySQL', img: '/skills/mysql.png' },
     { name: 'Git', img: '/skills/git.png' },
     { name: 'GitHub', img: '/skills/github.png' },
     { name: 'C', img: '/skills/c.png' },
     { name: 'HTML', img: '/skills/html-5.png' },
     { name: 'CSS', img: '/skills/css-3.png' },
     { name: 'JavaScript', img: '/skills/js.png' },
-    { name: 'React', img: '/skills/react.svg' },
     { name: 'Tailwind CSS', img: '/skills/tailwind.png' },
   ]
 
